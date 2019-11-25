@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <script src="https://aframe.io/releases/0.9.2/aframe.min.js"></script>
+  <script src="https://raw.githack.com/jeromeetienne/AR.js/2.0.8/aframe/build/aframe-ar.js"></script>
+  <body style="margin : 0px; overflow: hidden;">
+    <a-scene embedded arjs>
+      <a-marker-camera type="hiro"></a-marker-camera>
+       <a-gltf-model src="./titanic_2/scene.gltf" rotation="0 90 -90" scale="0.15 0.15 0.15"></a-gltf-model>
+      <a-entity camera></a-entity>
+    </a-scene>
+  </body>
+</html>
